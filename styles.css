@@ -73,7 +73,7 @@ a {
 .hero-text h1 {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800px;
     margin: 0 0 12px 0;
 }
 
@@ -157,7 +157,7 @@ a {
 }
 
 .quote-author{
-    font: 20px;
+    font-size: 20px;
     color:#1F2937;
     font-weight: bold;
     text-align: right;
@@ -166,3 +166,65 @@ a {
     margin: 0;
     margin-top: 10px;
 }
+
+/* SECTION 4 */
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.cta-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #E5E7EB;
+    padding: 40px 80px;
+}
+
+.cta-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0 0 4px 0;
+}
+
+.cta-text p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.btn-secondary {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 28px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 12px;
+    white-space: nowrap;
+}
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background-color: #1F2937;
+    color: white;
+}
+
